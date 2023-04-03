@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[0.027s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.143s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.213s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.214s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.236s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.354s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.451s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[0.477s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.534s] -- Configured cppcheck include dirs: 
+[0.534s] -- Configured cppcheck exclude dirs and/or files: 
+[0.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.537s] -- Added test 'lint_cmake' to check CMake code style
+[0.538s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.546s] -- Added test 'uncrustify' to check C / C++ code style
+[0.546s] -- Configured uncrustify additional arguments: 
+[0.547s] -- Added test 'xmllint' to check XML markup files
+[0.548s] -- Configuring done
+[0.554s] -- Generating done
+[0.556s] -- Build files have been written to: /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[0.576s] [ 50%] [32mBuilding CXX object CMakeFiles/single_cam_node.dir/src/single_cam_node.cpp.o[0m
+[2.538s] [100%] [32m[1mLinking CXX executable single_cam_node[0m
+[2.607s] [100%] Built target single_cam_node
+[2.614s] Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[2.633s] Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[2.637s] -- Install configuration: ""
+[2.637s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/hkcamera_driver/single_cam_node
+[2.637s] -- Set runtime path of "/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/hkcamera_driver/single_cam_node" to ""
+[2.637s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/package_run_dependencies/hkcamera_driver
+[2.637s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/parent_prefix_path/hkcamera_driver
+[2.637s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/ament_prefix_path.sh
+[2.638s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/ament_prefix_path.dsv
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/path.sh
+[2.638s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/path.dsv
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.bash
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.sh
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.zsh
+[2.638s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.dsv
+[2.638s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.dsv
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/packages/hkcamera_driver
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig.cmake
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig-version.cmake
+[2.638s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.xml
+[2.640s] Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver

@@ -1,0 +1,105 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f52849ae8f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f52853b9bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f52853b9bd0>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.287s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/znbd/ROS2_driver/hkcamera_driver'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'hkcamera_driver'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/znbd/ROS2_driver/hkcamera_driver/install
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/znbd/applanix_ws/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hkcamera_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'hkcamera_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver', 'merge_install': False, 'path': '/home/znbd/ROS2_driver/hkcamera_driver', 'symlink_install': False, 'test_result_base': None}
+[0.370s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.373s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/znbd/ROS2_driver/hkcamera_driver' with build type 'ament_cmake'
+[0.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/znbd/ROS2_driver/hkcamera_driver'
+[0.377s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[0.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hkcamera_driver)
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver' for CMake module files
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver' for CMake config files
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('hkcamera_driver', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/pkgconfig/hkcamera_driver.pc'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/python3.10/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.zsh'
+[0.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/colcon-core/packages/hkcamera_driver)
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hkcamera_driver)
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver' for CMake module files
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('hkcamera_driver', 'cmake_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/hook/cmake_prefix_path.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/bin'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/pkgconfig/hkcamera_driver.pc'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/python3.10/site-packages'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/bin'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.sh'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.bash'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.zsh'
+[0.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/colcon-core/packages/hkcamera_driver)
+[0.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.503s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.507s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.515s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/znbd/ROS2_driver/hkcamera_driver/install/local_setup.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/znbd/ROS2_driver/hkcamera_driver/install/_local_setup_util_ps1.py'
+[0.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/znbd/ROS2_driver/hkcamera_driver/install/setup.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/znbd/ROS2_driver/hkcamera_driver/install/local_setup.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/znbd/ROS2_driver/hkcamera_driver/install/_local_setup_util_sh.py'
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/znbd/ROS2_driver/hkcamera_driver/install/setup.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/znbd/ROS2_driver/hkcamera_driver/install/local_setup.bash'
+[0.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/znbd/ROS2_driver/hkcamera_driver/install/setup.bash'
+[0.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/znbd/ROS2_driver/hkcamera_driver/install/local_setup.zsh'
+[0.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/znbd/ROS2_driver/hkcamera_driver/install/setup.zsh'

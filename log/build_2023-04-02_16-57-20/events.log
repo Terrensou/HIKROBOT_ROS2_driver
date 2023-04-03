@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (hkcamera_driver) JobQueued: {'identifier': 'hkcamera_driver', 'dependencies': OrderedDict()}
+[0.000497] (hkcamera_driver) JobStarted: {'identifier': 'hkcamera_driver'}
+[0.016788] (hkcamera_driver) JobEnded: {'identifier': 'hkcamera_driver', 'rc': 1}
+[0.027562] (-) EventReactorShutdown: {}

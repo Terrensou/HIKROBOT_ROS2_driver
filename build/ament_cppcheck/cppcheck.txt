@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/znbd/ROS2_driver/hkcamera_driver':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/znbd/ROS2_driver/hkcamera_driver/build/test_results/hkcamera_driver/cppcheck.xunit.xml --include_dirs /home/znbd/ROS2_driver/hkcamera_driver/include
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/znbd/ROS2_driver/hkcamera_driver/build/test_results/hkcamera_driver/cppcheck.xunit.xml'

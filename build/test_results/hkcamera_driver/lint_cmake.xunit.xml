@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="hkcamera_driver.lint_cmake"
+  tests="183"
+  errors="0"
+  failures="165"
+  time="0.095"
+>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:16)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:17)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:18)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="build/CTestCustom.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:1)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:4)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:5)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:7)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:16)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:17)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:18)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:47)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:49)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:50)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:52)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:54)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:56)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:57)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:58)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:66)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:70)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:74)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:78)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:82)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:86)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:90)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:94)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:98)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:102)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:106)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:110)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cmake_install.cmake:114)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/cmake_install.cmake:121)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:131)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:133)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:714)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:720)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:742)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/hkcamera_driver.dir/cmake_clean.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/hkcamera_driver_uninstall.dir/cmake_clean.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/single_cam_node.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/single_cam_node.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/single_cam_node.dir/DependInfo.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/single_cam_node.dir/cmake_clean.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/DependInfo.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_core/hkcamera_driverConfig-version.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="build/ament_cmake_core/hkcamera_driverConfig.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:7)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:1)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:2)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:4)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:5)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="build/hkcamera_driver/CTestCustom.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/hkcamera_driver/CTestTestfile.cmake:1)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/hkcamera_driver/CTestTestfile.cmake:4)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/hkcamera_driver/CTestTestfile.cmake:5)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:7)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:16)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:17)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CTestTestfile.cmake:18)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:47)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:49)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:50)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:52)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:54)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:56)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:57)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:58)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:66)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:70)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:74)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:78)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:82)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:86)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:90)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:94)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:98)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:102)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:106)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:110)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/cmake_install.cmake:114)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/cmake_install.cmake:121)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:131)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/hkcamera_driver/cmake_install.cmake:133)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/Makefile.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/Makefile.cmake:714)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/Makefile.cmake:720)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/Makefile.cmake:742)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/cmake_clean.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/cmake_clean.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/single_cam_node.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/single_cam_node.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/single_cam_node.dir/DependInfo.cmake:15)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/single_cam_node.dir/cmake_clean.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/uninstall.dir/DependInfo.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/uninstall.dir/DependInfo.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/uninstall.dir/DependInfo.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/ament_cmake_core/hkcamera_driverConfig-version.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="build/hkcamera_driver/ament_cmake_core/hkcamera_driverConfig.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/ament_cmake_core/package.cmake:7)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/ament_cmake_core/package.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/hkcamera_driver/ament_cmake_core/package.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:1)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:2)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:4)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:5)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:6)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:8)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:9)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:10)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:11)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:12)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:13)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/hkcamera_driver/ament_cmake_package_templates/templates.cmake:14)"
+    classname="hkcamera_driver.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig-version.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <testcase
+    name="install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig.cmake"
+    classname="hkcamera_driver.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* build/CTestCustom.cmake
+* build/CTestTestfile.cmake
+* build/cmake_install.cmake
+* build/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/CMakeFiles/Makefile.cmake
+* build/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake
+* build/CMakeFiles/hkcamera_driver.dir/cmake_clean.cmake
+* build/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/hkcamera_driver_uninstall.dir/cmake_clean.cmake
+* build/CMakeFiles/single_cam_node.dir/DependInfo.cmake
+* build/CMakeFiles/single_cam_node.dir/cmake_clean.cmake
+* build/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/ament_cmake_core/hkcamera_driverConfig-version.cmake
+* build/ament_cmake_core/hkcamera_driverConfig.cmake
+* build/ament_cmake_core/package.cmake
+* build/ament_cmake_package_templates/templates.cmake
+* build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/hkcamera_driver/CTestCustom.cmake
+* build/hkcamera_driver/CTestTestfile.cmake
+* build/hkcamera_driver/cmake_install.cmake
+* build/hkcamera_driver/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/hkcamera_driver/CMakeFiles/Makefile.cmake
+* build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/hkcamera_driver/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/hkcamera_driver/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/DependInfo.cmake
+* build/hkcamera_driver/CMakeFiles/hkcamera_driver.dir/cmake_clean.cmake
+* build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/DependInfo.cmake
+* build/hkcamera_driver/CMakeFiles/hkcamera_driver_uninstall.dir/cmake_clean.cmake
+* build/hkcamera_driver/CMakeFiles/single_cam_node.dir/DependInfo.cmake
+* build/hkcamera_driver/CMakeFiles/single_cam_node.dir/cmake_clean.cmake
+* build/hkcamera_driver/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/hkcamera_driver/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/hkcamera_driver/ament_cmake_core/hkcamera_driverConfig-version.cmake
+* build/hkcamera_driver/ament_cmake_core/hkcamera_driverConfig.cmake
+* build/hkcamera_driver/ament_cmake_core/package.cmake
+* build/hkcamera_driver/ament_cmake_package_templates/templates.cmake
+* build/hkcamera_driver/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig-version.cmake
+* install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig.cmake</system-out>
+</testsuite>

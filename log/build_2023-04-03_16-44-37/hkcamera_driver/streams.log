@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[0.025s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.149s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.154s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.244s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.368s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.467s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[0.500s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.513s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.574s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.574s] -- Configured cppcheck include dirs: /home/znbd/ROS2_driver/hkcamera_driver/include
+[0.574s] -- Configured cppcheck exclude dirs and/or files: 
+[0.576s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.580s] -- Added test 'lint_cmake' to check CMake code style
+[0.581s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.593s] -- Added test 'uncrustify' to check C / C++ code style
+[0.593s] -- Configured uncrustify additional arguments: 
+[0.595s] -- Added test 'xmllint' to check XML markup files
+[0.596s] -- Configuring done
+[0.721s] -- Generating done
+[0.722s] -- Build files have been written to: /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[0.742s] [35m[1mConsolidate compiler generated dependencies of target single_cam_node[0m
+[0.752s] [ 25%] [32mBuilding CXX object CMakeFiles/test1.dir/src/test1.cpp.o[0m
+[0.761s] [ 75%] Built target single_cam_node
+[0.972s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/test1.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
+[0.972s]     6 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K // Using image_transport allows us to publish and subscribe to compressed image streams in ROS2
+[0.972s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.973s] compilation terminated.
+[0.982s] gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test1.cpp.o] Error 1
+[0.982s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test1.dir/all] Error 2
+[0.982s] gmake: *** [Makefile:146: all] Error 2
+[0.984s] Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16

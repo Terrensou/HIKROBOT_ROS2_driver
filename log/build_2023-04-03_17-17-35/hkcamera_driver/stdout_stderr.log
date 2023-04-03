@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target single_cam_node[0m
+[ 50%] Built target test1
+[ 75%] [32mBuilding CXX object CMakeFiles/single_cam_node.dir/src/single_cam_node.cpp.o[0m
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K In function ‘[01m[Kvoid ImageCallBackEx(unsigned char*, MV_FRAME_OUT_INFO_EX*, void*)[m[K’:
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:51:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   51 |             pub->[01;31m[Kpublish[m[K(*img_msg.get());
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:20:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 | void __stdcall ImageCallBackEx([01;35m[Kunsigned char * pData[m[K, MV_FRAME_OUT_INFO_EX* pFrameInfo, void* pub_)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K At global scope:
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+  152 |     MV_CC_PIXEL_CONVERT_PARAM stConvertParam = {0[01;35m[K}[m[K;
+      |                                                  [01;35m[K^[m[K
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::enSrcPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::pSrcData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nSrcDataLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::enDstPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::pDstBuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nDstLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nDstBufferSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nRes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K In member function ‘[01m[Kvoid HIKRobotSingleCameraPublisher::find_and_select_camera()[m[K’:
+[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:201:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 2 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  201 |             scanf("[01;35m[K%d[m[K", [32m[K&nIndex[m[K);
+      |                    [01;35m[K~^[m[K   [32m[K~~~~~~~[m[K
+      |                     [01;35m[K|[m[K   [32m[K|[m[K
+      |                     [01;35m[K|[m[K   [32m[Kunsigned int*[m[K
+      |                     [01;35m[Kint*[m[K
+      |                    [32m[K%d[m[K
+gmake[2]: *** [CMakeFiles/single_cam_node.dir/build.make:76: CMakeFiles/single_cam_node.dir/src/single_cam_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/single_cam_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

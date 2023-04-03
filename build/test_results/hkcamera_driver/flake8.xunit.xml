@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="hkcamera_driver.flake8"
+  tests="3"
+  errors="0"
+  failures="3"
+  time="0.467"
+>
+  <testcase
+    name="E501 (./install/_local_setup_util_sh.py:14:100)"
+    classname="hkcamera_driver.flake8"
+  >
+      <failure message="line too long (109 &gt; 99 characters):&#10;FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX=&quot;{prefix}&quot; _colcon_prefix_sh_source_script &quot;{script_path}&quot;'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/_local_setup_util_sh.py:15:100)"
+    classname="hkcamera_driver.flake8"
+  >
+      <failure message="line too long (124 &gt; 99 characters):&#10;FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ &quot;$(echo -n ${name} | head -c 1)&quot; = &quot;:&quot; ]; then export {name}=${{{name}#?}} ; fi'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/_local_setup_util_sh.py:16:100)"
+    classname="hkcamera_driver.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ &quot;$(echo -n ${name} | tail -c 1)&quot; = &quot;:&quot; ]; then export {name}=${{{name}%?}} ; fi'&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py</system-out>
+</testsuite>

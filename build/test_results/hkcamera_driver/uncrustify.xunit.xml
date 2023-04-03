@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hkcamera_driver" tests="1" failures="0" time="0.524" errors="1" skipped="0">
+  <testcase classname="hkcamera_driver" name="uncrustify.xunit.missing_result" time="0.524">
+    <error message="The test did not generate a result file:&#10;&#10;Traceback (most recent call last):&#10;  File &quot;/opt/ros/humble/bin/ament_uncrustify&quot;, line 33, in &lt;module&gt;&#10;    sys.exit(load_entry_point('ament-uncrustify==0.12.5', 'console_scripts', 'ament_uncrustify')())&#10;  File &quot;/opt/ros/humble/lib/python3.10/site-packages/ament_uncrustify/main.py&quot;, line 147, in main&#10;    original_file.readlines(), modified_file.readlines(),&#10;  File &quot;/usr/lib/python3.10/codecs.py&quot;, line 322, in decode&#10;    (result, consumed) = self._buffer_decode(data, self.errors, final)&#10;UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc0 in position 147: invalid start byte&#10;"/>
+  </testcase>
+</testsuite>

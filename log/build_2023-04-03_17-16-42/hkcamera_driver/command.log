@@ -1,0 +1,4 @@
+Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="hkcamera_driver.cppcheck"
+  tests="10"
+  errors="0"
+  failures="0"
+  time="0.004"
+  skipped="10"
+>
+  <testcase
+    name="build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="build/hkcamera_driver/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/MvCamCtrlSDK_Runtime-3.2.0/CameraParams.h"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/MvCamCtrlSDK_Runtime-3.2.0/MvCameraControl.h"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/MvCamCtrlSDK_Runtime-3.2.0/MvErrorDefine.h"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/MvCamCtrlSDK_Runtime-3.2.0/MvISPErrorDefine.h"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/MvCamCtrlSDK_Runtime-3.2.0/PixelType.h"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/single_cam_node.cpp"
+    classname="hkcamera_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

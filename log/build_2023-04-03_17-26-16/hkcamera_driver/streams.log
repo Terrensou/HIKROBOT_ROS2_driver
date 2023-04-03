@@ -1,0 +1,56 @@
+[0.011s] Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target single_cam_node[0m
+[0.052s] [ 50%] Built target test1
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/single_cam_node.dir/src/single_cam_node.cpp.o[0m
+[2.217s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K In function ‘[01m[Kvoid ImageCallBackEx(unsigned char*, MV_FRAME_OUT_INFO_EX*, void*)[m[K’:
+[2.217s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:20:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.217s]    20 | void __stdcall ImageCallBackEx([01;35m[Kunsigned char * pData[m[K, MV_FRAME_OUT_INFO_EX* pFrameInfo, void* pub_)
+[2.218s]       |                                [01;35m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K At global scope:
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nHeight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s]   152 |     MV_CC_PIXEL_CONVERT_PARAM stConvertParam = {0[01;35m[K}[m[K;
+[2.218s]       |                                                  [01;35m[K^[m[K
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::enSrcPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::pSrcData[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nSrcDataLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::enDstPixelType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::pDstBuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nDstLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nDstBufferSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.218s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:152:50:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K_MV_PIXEL_CONVERT_PARAM_T_::nRes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+[2.219s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K In constructor ‘[01m[KHIKRobotSingleCameraPublisher::HIKRobotSingleCameraPublisher(std::string)[m[K’:
+[2.219s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:67:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.219s]    67 |         auto [01;35m[Kqos[m[K = use_sensor_data_qos ? rmw_qos_profile_sensor_data
+[2.219s]       |              [01;35m[K^~~[m[K
+[2.221s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:[m[K In member function ‘[01m[Kvoid HIKRobotSingleCameraPublisher::find_and_select_camera()[m[K’:
+[2.221s] [01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/single_cam_node.cpp:201:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint*[m[K’, but argument 2 has type ‘[01m[Kunsigned int*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.221s]   201 |             scanf("[01;35m[K%d[m[K", [32m[K&nIndex[m[K);
+[2.221s]       |                    [01;35m[K~^[m[K   [32m[K~~~~~~~[m[K
+[2.221s]       |                     [01;35m[K|[m[K   [32m[K|[m[K
+[2.221s]       |                     [01;35m[K|[m[K   [32m[Kunsigned int*[m[K
+[2.221s]       |                     [01;35m[Kint*[m[K
+[2.221s]       |                    [32m[K%d[m[K
+[4.123s] [100%] [32m[1mLinking CXX executable single_cam_node[0m
+[5.030s] [100%] Built target single_cam_node
+[5.040s] Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver -- -j16 -l16
+[5.062s] Invoking command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver
+[5.066s] -- Install configuration: ""
+[5.066s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/hkcamera_driver/single_cam_node
+[5.067s] -- Set runtime path of "/home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/hkcamera_driver/single_cam_node" to ""
+[5.067s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/lib/hkcamera_driver/test1
+[5.067s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/package_run_dependencies/hkcamera_driver
+[5.067s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/parent_prefix_path/hkcamera_driver
+[5.067s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/ament_prefix_path.sh
+[5.067s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/ament_prefix_path.dsv
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/path.sh
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/environment/path.dsv
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.bash
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.sh
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.zsh
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/local_setup.dsv
+[5.068s] -- Installing: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.dsv
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/ament_index/resource_index/packages/hkcamera_driver
+[5.068s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig.cmake
+[5.069s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/cmake/hkcamera_driverConfig-version.cmake
+[5.069s] -- Up-to-date: /home/znbd/ROS2_driver/hkcamera_driver/install/hkcamera_driver/share/hkcamera_driver/package.xml
+[5.070s] Invoked command in '/home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/znbd/ROS2_driver/hkcamera_driver/build/hkcamera_driver

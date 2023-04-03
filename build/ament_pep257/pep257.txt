@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/znbd/ROS2_driver/hkcamera_driver':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/znbd/ROS2_driver/hkcamera_driver/build/test_results/hkcamera_driver/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/znbd/ROS2_driver/hkcamera_driver/build/test_results/hkcamera_driver/pep257.xunit.xml'

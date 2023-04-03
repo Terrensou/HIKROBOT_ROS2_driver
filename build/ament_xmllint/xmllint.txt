@@ -1,0 +1,3 @@
+-- run_test.py: invoking following command in '/home/znbd/ROS2_driver/hkcamera_driver':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/znbd/ROS2_driver/hkcamera_driver/build/test_results/hkcamera_driver/xmllint.xunit.xml
+
