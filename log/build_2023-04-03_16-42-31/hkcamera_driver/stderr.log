@@ -1,7 +1,0 @@
-[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/test1.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kimage_transport/image_transport.hpp: No such file or directory
-    6 | #include [01;31m[K<image_transport/image_transport.hpp>[m[K // Using image_transport allows us to publish and subscribe to compressed image streams in ROS2
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test1.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test1.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

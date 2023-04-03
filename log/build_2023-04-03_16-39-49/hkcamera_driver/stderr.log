@@ -1,8 +1,0 @@
-[01m[K/home/znbd/ROS2_driver/hkcamera_driver/src/test1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
-    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/test1.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/test1.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2
