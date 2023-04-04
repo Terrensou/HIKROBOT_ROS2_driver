@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(hkcamera_driver)
+project(hik_camera_driver)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -21,8 +21,16 @@ include_directories(/opt/ros/humble/include/image_transport)
 
 
 add_executable(single_cam_node src/single_cam_node.cpp)
+add_executable(single_cam_node2 src/single_cam_node2.cpp)
 add_executable(test1 src/test1.cpp)
 target_link_libraries(single_cam_node
+  ${rclcpp_LIBRARIES}
+  ${sensor_msgs_LIBRARIES}
+  ${image_transport_LIBRARIES}
+  ${OpenCV_LIBS}
+  MvCameraControl
+)
+target_link_libraries(single_cam_node2
   ${rclcpp_LIBRARIES}
   ${sensor_msgs_LIBRARIES}
   ${image_transport_LIBRARIES}
@@ -36,11 +44,13 @@ target_link_libraries(test1
   ${OpenCV_LIBS}
 )
 ament_target_dependencies(single_cam_node rclcpp sensor_msgs image_transport OpenCV cv_bridge)
+ament_target_dependencies(single_cam_node2 rclcpp sensor_msgs image_transport OpenCV cv_bridge)
 ament_target_dependencies(test1 rclcpp sensor_msgs image_transport OpenCV cv_bridge)
 
 install(TARGETS
   single_cam_node
   test1
+  single_cam_node2
   DESTINATION lib/${PROJECT_NAME}
 )
 

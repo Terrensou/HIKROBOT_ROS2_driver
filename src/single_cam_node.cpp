@@ -4,24 +4,20 @@
 #include <opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <unistd.h>
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <pthread.h>
 #include "HIKRobot_MVS_SDK/MvCameraControl.h"
 
 using namespace std;
 
 #define SET_TriggerMode_OFF false
-#define DEBUG_LOG true
+#define DEBUG_LOG false
 
 void __stdcall ImageCallBackEx(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, void* pub_)
 {
-    // auto pub = <image_transport::Publisher*>(pub_);
-    // image_transport::Publisher* pub = static_cast<image_transport::Publisher *>(pub_);
-    // image_transport::Publishesr* pub = (image_transport::Publisher *)pub_;
+
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr* pub = (rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr *)pub_;
     if (pFrameInfo)
     {
@@ -31,10 +27,7 @@ void __stdcall ImageCallBackEx(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pFra
         cout << "start copy to Opencv" << endl;
         #endif    
         cv::Mat frame = cv::Mat(pFrameInfo->nHeight, pFrameInfo->nWidth, CV_8UC3, pData).clone();
-        // cv::Mat frame(cv::Size(1280, 720), CV_8UC3);
-        // cv::randu(frame, cv::Scalar(0, 0, 0), cv::Scalar(255, 255, 255));
-        // cv::imshow("frame", frame);
-        // cv::waitKey(0);
+
 
         if (!frame.empty())
         {
@@ -45,12 +38,10 @@ void __stdcall ImageCallBackEx(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pFra
             cout << "transform to sersor img" << endl;
             #endif    
             sensor_msgs::msg::Image::SharedPtr img_msg = cv_bridge::CvImage(_header, sensor_msgs::image_encodings::BGR8, frame).toImageMsg();
-            // sensor_msgs::msg::Image::SharedPtr img_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();  
-            
-            cout << "publish image" << endl;
+              
+            // cout << "publish image" << endl;
             (*pub)->publish(*img_msg.get());
-            // pub_->publish(img_msg);
-            // rclcpp::RCLCPP_INFO(this->get_logger(), "publish image");
+
             
         }
     }
@@ -66,9 +57,7 @@ public:
         bool use_sensor_data_qos = this->declare_parameter("use_sensor_data_qos", false);
         auto qos = use_sensor_data_qos ? rmw_qos_profile_sensor_data
                                         : rmw_qos_profile_default;
-        // pub_ = image_transport::create_camera_publisher(this, "image_raw", qos);
-        publisher_ =
-            this->create_publisher<sensor_msgs::msg::Image>("image_raw", 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image_raw", 10);
 
         #if DEBUG_LOG
         cout << "create publisher" << endl;
@@ -98,7 +87,6 @@ public:
     {
 
         int nRet = MV_OK;
-        sensor_msgs::msg::Image::SharedPtr img_msg;
 
         // 注册抓图回调
         // register image callback
@@ -145,7 +133,6 @@ private:
     unsigned int g_nPayloadSize = 0;
     bool g_bExit = false;
 
-    // image_transport::Publisher pub_;
     image_transport::CameraPublisher pub_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;

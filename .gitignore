@@ -13,3 +13,4 @@ build
 install
 log
 .vscode
+src/test1.cpp
