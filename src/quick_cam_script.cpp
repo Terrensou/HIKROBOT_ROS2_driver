@@ -4,10 +4,9 @@
 #include <opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <unistd.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <pthread.h>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
 #include "HIKRobot_MVS_SDK/MvCameraControl.h"
 
 using namespace std;
@@ -18,7 +17,7 @@ using namespace std;
 void __stdcall ImageCallBackEx(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, void* pub_)
 {
 
-    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr* pub = (rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr *)pub_;
+    auto* pub = (rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr *)pub_;
     if (pFrameInfo)
     {
         printf("GetOneFrame, Width[%d], Height[%d], nFrameNum[%d]\n", 
@@ -50,7 +49,7 @@ void __stdcall ImageCallBackEx(unsigned char * pData, MV_FRAME_OUT_INFO_EX* pFra
 class HIKRobotSingleCameraPublisher : public rclcpp::Node
 {
 public:
-    HIKRobotSingleCameraPublisher(string name) : Node(name)
+    explicit HIKRobotSingleCameraPublisher(const string& name) : Node(name)
     {
         find_and_select_camera();
 
@@ -64,7 +63,7 @@ public:
         #endif
     }
 
-    ~HIKRobotSingleCameraPublisher()
+    ~HIKRobotSingleCameraPublisher() override
     {
         // ch:关闭设备 | Close device
         nRet = MV_CC_CloseDevice(camHandle);
@@ -86,7 +85,7 @@ public:
     void publish_flow()
     {
 
-        int nRet = MV_OK;
+        nRet = MV_OK;
 
         // 注册抓图回调
         // register image callback
@@ -129,14 +128,13 @@ public:
 
 private:
     int nRet = MV_OK;
-    void* camHandle = NULL;
+    void* camHandle = nullptr;
     unsigned int g_nPayloadSize = 0;
     bool g_bExit = false;
 
     image_transport::CameraPublisher pub_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
-    MV_CC_PIXEL_CONVERT_PARAM stConvertParam = {0};
 
 
     
@@ -161,7 +159,7 @@ private:
             {
                 printf("[device %d]:\n", i);
                 MV_CC_DEVICE_INFO* pDeviceInfo = stDeviceList.pDeviceInfo[i];
-                if (NULL == pDeviceInfo)
+                if (nullptr == pDeviceInfo)
                 {
                     abort();
                 } 
@@ -261,7 +259,7 @@ private:
 
     // 等待用户输入enter键来结束取流或结束程序
     // wait for user to input enter to stop grabbing or end the sample program
-    void PressEnterToExit(void)
+    void PressEnterToExit()
     {
         int c;
         while ( (c = getchar()) != '\n' && c != EOF );
@@ -271,9 +269,9 @@ private:
         sleep(1);
     }
 
-    bool PrintDeviceInfo(MV_CC_DEVICE_INFO* pstMVDevInfo)
+    static bool PrintDeviceInfo(MV_CC_DEVICE_INFO* pstMVDevInfo)
     {
-        if (NULL == pstMVDevInfo)
+        if (nullptr == pstMVDevInfo)
         {
             printf("The Pointer of pstMVDevInfo is NULL!\n");
             return false;

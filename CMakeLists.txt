@@ -22,6 +22,8 @@ include_directories(/opt/ros/humble/include/image_transport)
 
 add_executable(single_cam_node src/single_cam_node.cpp)
 add_executable(quick_cam_script src/quick_cam_script.cpp)
+add_executable(save_cam_param src/save_cam_param.cpp)
+add_executable(load_cam_param src/load_cam_param.cpp)
 add_executable(test1 src/test1.cpp)
 target_link_libraries(single_cam_node
   ${rclcpp_LIBRARIES}
@@ -37,20 +39,31 @@ target_link_libraries(quick_cam_script
   ${OpenCV_LIBS}
   MvCameraControl
 )
+target_link_libraries(save_cam_param
+  MvCameraControl
+)
+target_link_libraries(load_cam_param
+  MvCameraControl
+)
 target_link_libraries(test1
   ${rclcpp_LIBRARIES}
   ${sensor_msgs_LIBRARIES}
   ${image_transport_LIBRARIES}
   ${OpenCV_LIBS}
+  MvCameraControl
 )
 ament_target_dependencies(single_cam_node rclcpp sensor_msgs image_transport OpenCV cv_bridge)
 ament_target_dependencies(quick_cam_script rclcpp sensor_msgs image_transport OpenCV cv_bridge)
 ament_target_dependencies(test1 rclcpp sensor_msgs image_transport OpenCV cv_bridge)
+ament_target_dependencies(save_cam_param)
+ament_target_dependencies(load_cam_param)
 
 install(TARGETS
   single_cam_node
   test1
   quick_cam_script
+  save_cam_param
+  load_cam_param
   DESTINATION lib/${PROJECT_NAME}
 )
 

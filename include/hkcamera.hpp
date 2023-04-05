@@ -11,6 +11,8 @@ void __PressEnterToExitGrabFlow(void);
 
 class HKCamera
 {
+protected:
+    friend void* __CallBackThread(void* pCam_t);
 public:
     HKCamera(MV_CC_DEVICE_INFO* pDeviceInfo)
     {
@@ -121,6 +123,31 @@ public:
 
     }
 
+    void SaveDeviceInfo(char* filename)
+    {
+        // ch:将相机属性导出到文件中 | en:Export the camera properties to the file
+        nRet = MV_CC_FeatureSave(camHandle, filename);
+        if (MV_OK != nRet)
+        {
+            printf("Save Feature fail! nRet [0x%x]\n", nRet);
+            return;
+        }
+        printf("Finish export the camera properties to the file\n\n");
+        
+    }
+    void LoadDeviceInfo(const char* filename)
+    {
+        // ch:从文件中导入相机属性 | en:Import the camera properties from the file
+        printf("Start import the camera properties from the file\n");
+        nRet = MV_CC_FeatureLoad(camHandle, filename);
+        if (MV_OK != nRet)
+        {
+            printf("Load Feature fail! nRet [0x%x]\n", nRet);
+            return;
+        }
+        printf("Finish import the camera properties from the file\n");
+    }
+
 private:
     int nRet = MV_OK;
     void* camHandle = NULL;
@@ -128,7 +155,7 @@ private:
     bool g_bExit = false;
     MV_CC_DEVICE_INFO* camInfo = NULL;
 
-    friend void* __CallBackThread(void* pCam_t);
+    
 
     // ch:获取数据包大小 | en:Get payload size
     bool __DetectPayloadSize()
@@ -372,6 +399,14 @@ void* __CallBackThread(void* pCam_t)
             abort();
         }
         __PressEnterToExitGrabFlow();
+
+
+        // end grab image
+        nRet = MV_CC_StopGrabbing(pCam->camHandle);
+        if (MV_OK != nRet)
+        {
+            printf("MV_CC_StopGrabbing fail! nRet [%x]\n", nRet);
+        }
 
         return 0;
     }

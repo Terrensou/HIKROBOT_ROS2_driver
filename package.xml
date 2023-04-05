@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>hik_camera_driver</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="lbanghao@cau.edu.cn">znbd</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>用于海康机器人工业相机的ROS2驱动</description>
+  <maintainer email="lbanghao@cau.edu.cn">Terrence Lin</maintainer>
+  <license>Apache License</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
